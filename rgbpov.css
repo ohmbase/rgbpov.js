@@ -1,0 +1,43 @@
+body {
+  padding: 20px;
+  font-family: Verdana, sans;
+}
+
+#container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.column {
+  width: 260px;
+  padding: 20px;
+  margin: 0px;
+  float: left;
+}
+
+#source_wrapper {
+  text-align: center;
+}
+
+#preview img {
+  max-width: 250px;
+}
+
+#c_output {
+  width: 260px;
+  min-height: 200px;
+}
+
+div.pixel {
+  width: 10px;
+  height: 4px;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+
+div.line {
+  height: 4px;
+  margin: 0px;
+  padding: 0px;
+}
