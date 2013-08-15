@@ -57,12 +57,13 @@
           source.src = e.target.result;
         };
           
-        $('#image_selection').submit(function() {
-          // Read image
+        $('#image_selection').submit(function(e) {
+          e.preventDefault();
+          
+          // Read image ~from user's machine~
           var files = $('#image_source')[0].files;
           if (files.length == 1)
             reader.readAsDataURL(files[0]);
-          return false;
         });
         
       });
